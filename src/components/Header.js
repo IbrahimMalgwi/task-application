@@ -1,6 +1,11 @@
+import Logo from "../assets/react.png"
+import "./header.css";
+
 const Header = () => {
   return (
-    <div>Header</div>
+    <div>
+      <img className="logo" src={Logo} alt="" />
+    </div>
   )
 }
 
